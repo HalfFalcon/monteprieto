@@ -2,6 +2,10 @@
 // Import Bootstrap source files (Required file)
 @import "../node_modules/bootstrap/scss/bootstrap";
 
+body {
+  background-color: rgb(132,149,192);
+}
+
 .quarter-down {
   margin-top: 25vh;
 }
@@ -12,3 +16,23 @@
 h1 {
   font-size: 4rem;
 }
+
+.dock {
+  background-color: rgb(0,0,0,0)!important;
+  box-shadow: none!important;
+
+  lib-sidebar-container {
+    display: none!important;
+  }
+  &.dock-open {
+    lib-sidebar-container {
+      display: block!important;
+    }
+    width: 150px!important;
+  }
+}
+
+.menu-opener {
+  font-size: 40px!important;
+}
+
