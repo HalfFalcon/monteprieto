@@ -1,0 +1,57 @@
+:host {
+  background-repeat: repeat;
+  background-size: 100%;
+  width: 300%;
+  z-index: -1;
+  min-height: 4000px;
+  height: auto;
+  top:0;
+  left:0;
+  position: fixed;
+}
+
+:host(.cactus) {
+    background-image: url("/assets/cactus.jpg");
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 376px) {
+  :host {
+    width: 300%;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 476px) {
+  :host {
+    width: 250%;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  :host {
+    width: 200%;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+  :host {
+    width: 155%;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  :host {
+    width: 140%;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  :host {
+    width: 100%;
+  }
+}

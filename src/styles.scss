@@ -2,9 +2,23 @@
 // Import Bootstrap source files (Required file)
 @import "../node_modules/bootstrap/scss/bootstrap";
 
+
+//Body
+
 body {
   background-color: rgb(132,149,192);
 }
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+// Page Stuff
 
 .quarter-down {
   margin-top: 25vh;
@@ -13,8 +27,16 @@ body {
   margin-top: 50vh;
 }
 
-h1 {
-  font-size: 4rem;
+//Menu Stuff
+.content-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.content {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }
 
 .dock {
@@ -35,4 +57,3 @@ h1 {
 .menu-opener {
   font-size: 40px!important;
 }
-
