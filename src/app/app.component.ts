@@ -14,15 +14,21 @@ export class AppComponent implements OnInit {
   ngOnInit() {
     this.sidebarItems = [
       {
-        name: 'Welcome',
+        name: 'Home',
         icon: 'las la-home',
-        routerLink: ['/welcome'],
+        routerLink: [''],
         position: SimpleSidebarPosition.top
       },
       {
-        name: 'About',
-        icon: 'las la-address-book',
-        routerLink: ['/about'],
+        name: 'The Center',
+        icon: 'las la-sun',
+        routerLink: ['/the-center'],
+        position: SimpleSidebarPosition.top
+      },
+      {
+        name: 'The Land',
+        icon: 'las la-tree',
+        routerLink: ['/the-land'],
         position: SimpleSidebarPosition.top
       },
     ];

@@ -13,6 +13,12 @@
 :host(.cactus) {
     background-image: url("/assets/cactus.jpg");
 }
+:host(.the-center) {
+    background-image: url("/assets/the-center.jpg");
+}
+:host(.the-land) {
+    background-image: url("/assets/the-land.jpg");
+}
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 376px) {
