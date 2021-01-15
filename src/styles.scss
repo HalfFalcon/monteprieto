@@ -46,6 +46,8 @@ lib-ng-simple-sidebar {
 .dock {
   background-color: rgb(0,0,0,0)!important;
   box-shadow: none!important;
+  font-weight: 800!important;
+  height: 100vh!important;
 
   lib-sidebar-container {
     display: none!important;
