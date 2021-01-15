@@ -28,6 +28,10 @@ h1 {
 }
 
 //Menu Stuff
+lib-ng-simple-sidebar {
+  z-index: 10;
+}
+
 .content-wrapper {
   display: flex;
   flex-wrap: nowrap;
@@ -62,4 +66,12 @@ h1 {
   padding: 25px;
   background-color: rgba(200,200,200,.65);
   border-radius: 10px;
+}
+
+.flex-img {
+  align-self: flex-start;
+}
+
+.menu-compensate {
+  left:-12px;
 }
