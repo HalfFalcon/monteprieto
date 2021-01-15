@@ -31,6 +31,12 @@ export class AppComponent implements OnInit {
         routerLink: ['/the-land'],
         position: SimpleSidebarPosition.top
       },
+      {
+        name: 'Ethical Ranching',
+        icon: 'las la-globe-americas',
+        routerLink: ['/ethical-ranching'],
+        position: SimpleSidebarPosition.top
+      },
     ];
     // required, configure items
     this.ngSimpleSidebarService.addItems(this.sidebarItems);

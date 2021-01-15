@@ -8,13 +8,15 @@ import {HomeComponent} from "./components/home/home.component";
 import {ParallaxComponent} from "./components/parallax/parallax.component";
 import {TheCenterComponent} from "./components/the-center/the-center.component";
 import {TheLandComponent} from "./components/the-land/the-land.component";
+import {EthicalRanchingComponent} from "./components/ethical-ranching/ethical-ranching.component";
 
 @NgModule({
     declarations: [
         AppComponent,
-        TheLandComponent,
+        EthicalRanchingComponent,
         HomeComponent,
         TheCenterComponent,
+        TheLandComponent,
         ParallaxComponent,
     ],
     imports: [

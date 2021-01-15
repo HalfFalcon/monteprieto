@@ -51,10 +51,12 @@ lib-ng-simple-sidebar {
     display: none!important;
   }
   &.dock-open {
+    background-color: rgba(200, 200, 200, 0.65)!important;
+    height: 100vh;
     lib-sidebar-container {
       display: block!important;
     }
-    width: 150px!important;
+    width: 205px!important;
   }
 }
 

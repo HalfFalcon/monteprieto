@@ -1,7 +1,6 @@
 :host {
   background-repeat: repeat;
   background-size: 100%;
-  background-position-x: center;
   width: 300%;
   z-index: -1;
   min-height: 4000px;
@@ -24,6 +23,9 @@
 }
 :host(.the-land) {
     background-image: url("/assets/the-land.jpg");
+}
+:host(.cattle-in-pen) {
+    background-image: url("/assets/cattle-in-pen.jpg");
 }
 
 /* Small devices (landscape phones, 576px and up) */
