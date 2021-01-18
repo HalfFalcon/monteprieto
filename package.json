@@ -9,7 +9,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "dev": "ng s --aot -o --port=4200 --disable-host-check",
-    "push": "ng build --prod --baseHref='https://monteprieto.com/'; cp docs/index.html docs/404.hmtl;git add .;git commit -m 'building prod dist'; git push origin master;"
+    "push": "ng build --prod --baseHref='https://monteprieto.com/'; cp docs/index.html docs/404.html; cp CNAME docs/CNAME;cp git add .;git commit -m 'building prod dist'; git push origin master;"
   },
   "private": true,
   "dependencies": {
