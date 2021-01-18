@@ -58,7 +58,7 @@ lib-ng-simple-sidebar {
     lib-sidebar-container {
       display: block!important;
     }
-    width: 205px!important;
+    width: 250px!important;
   }
 }
 
@@ -78,4 +78,15 @@ lib-ng-simple-sidebar {
 
 .menu-compensate {
   left:-12px;
+}
+
+.menu-item-label {
+  white-space: nowrap;
+}
+
+// Carousel
+
+.carousel-inner {
+  display: flex;
+  align-items: center;
 }

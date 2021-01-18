@@ -32,9 +32,15 @@ export class AppComponent implements OnInit {
         position: SimpleSidebarPosition.top
       },
       {
-        name: 'Ethical Ranching',
+        name: 'Sustainable Ranching',
         icon: 'las la-globe-americas',
-        routerLink: ['/ethical-ranching'],
+        routerLink: ['/sustainable-ranching'],
+        position: SimpleSidebarPosition.top
+      },
+      {
+        name: 'Our History',
+        icon: 'las la-hat-cowboy-side',
+        routerLink: ['/our-history'],
         position: SimpleSidebarPosition.top
       },
     ];
