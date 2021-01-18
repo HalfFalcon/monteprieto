@@ -9,41 +9,40 @@ import { NgSimpleSidebarService, SimpleSidebarPosition, SimpleSidebarItem } from
 export class AppComponent implements OnInit {
   constructor(private ngSimpleSidebarService: NgSimpleSidebarService) {}
 
-  sidebarItems: SimpleSidebarItem[] = [];
+  sidebarItems: SimpleSidebarItem[] = [
+    {
+      name: 'Home',
+      icon: 'las la-home',
+      routerLink: [''],
+      position: SimpleSidebarPosition.top
+    },
+    {
+      name: 'The Center',
+      icon: 'las la-sun',
+      routerLink: ['/the-center'],
+      position: SimpleSidebarPosition.top
+    },
+    {
+      name: 'The Land',
+      icon: 'las la-tree',
+      routerLink: ['/the-land'],
+      position: SimpleSidebarPosition.top
+    },
+    {
+      name: 'Sustainable Ranching',
+      icon: 'las la-globe-americas',
+      routerLink: ['/sustainable-ranching'],
+      position: SimpleSidebarPosition.top
+    },
+    {
+      name: 'Our History',
+      icon: 'las la-hat-cowboy-side',
+      routerLink: ['/our-history'],
+      position: SimpleSidebarPosition.top
+    },
+  ];
 
-  ngOnInit() {
-    this.sidebarItems = [
-      {
-        name: 'Home',
-        icon: 'las la-home',
-        routerLink: [''],
-        position: SimpleSidebarPosition.top
-      },
-      {
-        name: 'The Center',
-        icon: 'las la-sun',
-        routerLink: ['/the-center'],
-        position: SimpleSidebarPosition.top
-      },
-      {
-        name: 'The Land',
-        icon: 'las la-tree',
-        routerLink: ['/the-land'],
-        position: SimpleSidebarPosition.top
-      },
-      {
-        name: 'Sustainable Ranching',
-        icon: 'las la-globe-americas',
-        routerLink: ['/sustainable-ranching'],
-        position: SimpleSidebarPosition.top
-      },
-      {
-        name: 'Our History',
-        icon: 'las la-hat-cowboy-side',
-        routerLink: ['/our-history'],
-        position: SimpleSidebarPosition.top
-      },
-    ];
+  ngOnInit(): void {
     // required, configure items
     this.ngSimpleSidebarService.addItems(this.sidebarItems);
 

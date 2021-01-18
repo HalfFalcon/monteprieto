@@ -14,7 +14,7 @@ export interface Slides {
 })
 export class CarouselComponent {
     @ViewChild('carousel', {static : true}) carousel: NgbCarousel|null = null;
-    @Input('slides') slides: Slides[] = [];
+    @Input() slides: Slides[] = [];
 
     goFullscreen = false;
 

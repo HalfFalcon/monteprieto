@@ -1,7 +1,7 @@
 import {Component} from '@angular/core';
 
 @Component({
-  selector: 'backcountry',
+  selector: 'the-land',
   templateUrl: './the-land.component.html',
   styleUrls: ['./the-land.component.scss']
 })
