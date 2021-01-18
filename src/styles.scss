@@ -28,6 +28,8 @@ h1 {
 }
 
 //Menu Stuff
+$menu-width: 250px;
+
 lib-ng-simple-sidebar {
   z-index: 10;
 }
@@ -46,7 +48,7 @@ lib-ng-simple-sidebar {
 .dock {
   background-color: rgb(0,0,0,0)!important;
   box-shadow: none!important;
-  font-weight: 800!important;
+  font-weight: bold!important;
   height: 100vh!important;
 
   lib-sidebar-container {
@@ -58,7 +60,7 @@ lib-ng-simple-sidebar {
     lib-sidebar-container {
       display: block!important;
     }
-    width: 250px!important;
+    width: $menu-width!important;
   }
 }
 
@@ -78,6 +80,15 @@ lib-ng-simple-sidebar {
 
 .menu-compensate {
   left:-12px;
+}
+
+.menu-item {
+  width: $menu-width;
+}
+
+.menu-item:hover {
+  font-weight: 900!important;
+  text-decoration: none;
 }
 
 .menu-item-label {

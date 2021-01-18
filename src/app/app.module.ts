@@ -11,6 +11,7 @@ import {TheLandComponent} from './components/the-land/the-land.component';
 import {SustainableRanchingComponent} from './components/sustainable-ranching/sustainable-ranching.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import {CarouselComponent} from './components/carousel/carousel.component';
+import {OurHistoryComponent} from './components/our-history/our-history.component';
 
 @NgModule({
     declarations: [
@@ -18,6 +19,7 @@ import {CarouselComponent} from './components/carousel/carousel.component';
         CarouselComponent,
         SustainableRanchingComponent,
         HomeComponent,
+        OurHistoryComponent,
         TheCenterComponent,
         TheLandComponent,
         ParallaxComponent,
@@ -25,8 +27,8 @@ import {CarouselComponent} from './components/carousel/carousel.component';
     imports: [
         BrowserModule,
         AppRoutingModule,
-        NgSimpleSidebarModule,
         NgbModule,
+        NgSimpleSidebarModule,
     ],
     providers: [],
     bootstrap: [AppComponent]
