@@ -1,0 +1,22 @@
+// FontAwesome Import
+//@import 'icons/font-awesome/css/fontawesome-all.css';
+//@import 'icons/font-awesome/scss/fontawesome.scss';
+//$fa-font-path: "../webfonts";
+//@import 'icons/font-awesome/scss/fa-brands.scss';
+//@import 'icons/font-awesome/scss/fa-regular.scss';
+//@import 'icons/font-awesome/scss/fa-solid.scss';
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/brands";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+@import "~@fortawesome/fontawesome-free/scss/regular";
+
+.icon-arrow-right {
+    @include fa-icon-solid($fa-var-arrow-right);
+}
+
+// Alignment Classes
+.tl {text-align:left !important;}
+.tc {text-align: center !important;}
+.tr {text-align:right !important;}
+
+@import "~@ng-select/ng-select/themes/default.theme.css";
